@@ -1,0 +1,13 @@
+#  默认情况下，ESLint将在根目录下的所有父文件夹中查找配置文件。
+# 如果您希望所有项目都遵循特定约定，但这有时会导致意外结果，这可能很有用。
+# 要将ESLint限制为特定项目，请将其"root": true放在文件eslintConfig字段内
+# package.json或.eslintrc.*项目根级别的文件中。一旦找到配置，ESLint将停止查找父文件夹"root": true
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
